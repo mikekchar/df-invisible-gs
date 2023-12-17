@@ -90,7 +90,7 @@ TBD
       - [X] Get a list of all the file names (as unix filenames)
       - [X] Find all the dimensions
         - return "32x128" where 32 is x and 128 is y
-    - [ ] Calculate the dimensions and names of the files
+    - [X] Calculate the dimensions and names of the files
     - [ ] Generate the PNGs
   - [ ] Go through each folder documenting how to determine what needs to be drawn.
 

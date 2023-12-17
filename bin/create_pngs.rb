@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # Code for parsing tile page files
-class TilePage
+module TilePage
   INDENTATION = /^[ \t]+/.freeze
   TILE_PAGE = /\[TILE_PAGE:(.+)\]/.freeze
   FILE = /\[FILE:(.+)\]/.freeze
@@ -79,8 +79,30 @@ class TilePage
       pixel_dimensions: pixel_dimensions(lines)
     }
   end
+
+  def self.png_dimension(page)
+    if !page[:pixel_dimensions].nil?
+      page[:pixel_dimensions]
+    else
+      [
+        page[:tile_dimensions][0] * page[:page_dimensions][0],
+        page[:tile_dimensions][1] * page[:page_dimensions][1]
+      ]
+    end
+  end
+
+  def self.create_png(filename, page)
+    file = "#{File.dirname(filename)}/#{page[:file]}"
+    dim = png_dimension(page)
+    "convert -size #{dim[0]}x#{dim[1]} xc:tranparent #{file}"
+  end
+
+  def self.create_pngs(filename)
+    pages = TilePage.parse_file(filename)
+    pages.map { |page| create_png(filename, page) }
+  end
 end
 
-filename = TilePage.filenames.first
-pages = TilePage.parse_file(filename)
-pp pages
+TilePage.filenames.each do |filename|
+  pp TilePage.create_pngs(filename)
+end

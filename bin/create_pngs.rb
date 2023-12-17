@@ -1,3 +1,4 @@
 # frozen_string_literal: true
 
-puts('Hello, world.')
+files = Dir.glob('invisible/**/tile_page_*')
+puts(files.inspect)

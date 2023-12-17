@@ -94,7 +94,7 @@ module TilePage
   def self.create_png(filename, page)
     file = "#{File.dirname(filename)}/#{page[:file]}"
     dim = png_dimension(page)
-    "convert -size #{dim[0]}x#{dim[1]} xc:tranparent #{file}"
+    `convert -size #{dim[0]}x#{dim[1]} xc:transparent #{file}`
   end
 
   def self.create_pngs(filename)

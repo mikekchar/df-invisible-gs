@@ -66,7 +66,7 @@ TBD
       don't allow putting work directly into the public domain, so I have also
       allowed people to choose to use my changes under a CC0-1.0 license. It's
       the best I can do.  I wish there was a better upstream license.
-  - [ ] Write a script that parses the `tile_page_*` files and produces transparent PNGs.
+  - [X] Write a script that parses the `tile_page_*` files and produces transparent PNGs.
     - They should be the correct dimensions. I hope I can actually figure it
       out from this.  I don't really want to base it on dimensions of the actual PNGs
       as technically that might be a derived work.
@@ -91,7 +91,7 @@ TBD
       - [X] Find all the dimensions
         - return "32x128" where 32 is x and 128 is y
     - [X] Calculate the dimensions and names of the files
-    - [ ] Generate the PNGs
+    - [X] Generate the PNGs
   - [ ] Go through each folder documenting how to determine what needs to be drawn.
 
 ## Further project ideas

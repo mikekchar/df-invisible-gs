@@ -83,6 +83,10 @@ TBD
       - [X] Add a bin file
       - [X] Recursively find all the `tile_page_*` files
         - First time I've used Dir.glob.  Nice.
+      - [X] Open the first one and print all of the `TILE_PAGE` lines
+      - [X] Find the size of each `TILE_PAGE` block
+        - Just count down until you get a non-indented block
+        - I'm so glad that I don't care about computational complexity :-)
     - [ ] Calculate the dimensions and names of the files
     - [ ] Generate the PNGs
   - [ ] Go through each folder documenting how to determine what needs to be drawn.

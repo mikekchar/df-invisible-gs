@@ -13,8 +13,9 @@ each type of tile.
 
 ## Current Status
 
-Potentially ready to start making sprites.  I haven't tested it, but I think
-I've set up the transparent tile pages properly at this point.
+Currently missing `vanilla_descriptors_graphics/graphics/images/palette.png`
+because it wasn't listed in a tile_page.  I'll have to look to see if there
+are other `FILE` references as well that I missed.
 
 ## License
 

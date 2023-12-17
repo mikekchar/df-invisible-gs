@@ -13,9 +13,8 @@ each type of tile.
 
 ## Current Status
 
-Currently missing `vanilla_descriptors_graphics/graphics/images/palette.png`
-because it wasn't listed in a tile_page.  I'll have to look to see if there
-are other `FILE` references as well that I missed.
+It seems to work (at least I could make a world and try to embark in it).
+Next step is to start documenting what needs to go into all of the images.
 
 ## License
 

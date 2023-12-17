@@ -23,6 +23,13 @@ Completely broken.  I've just copied the txt files from the base game.
 There are currently no PNG files at all in the project.  Please see
 the TODO section futher down.
 
+### Active Branch: png_script
+
+Handles the TODO item:
+
+  - [ ] Write a script that parses the `tile_page_*` files and produces transparent PNGs.
+
+
 ## License
 
 The original txt files were placed in the public domain (see readme.txt in the
@@ -65,6 +72,10 @@ TBD
     - They should be the correct dimensions. I hope I can actually figure it
       out from this.  I don't really want to base it on dimensions of the actual PNGs
       as technically that might be a derived work.
+    - [ ] Find a tool that can produce a transparent PNG of a given dimension.
+    - [ ] Write something that parses the `tile_page_*` files
+    - [ ] Calculate the dimensions and names of the files
+    - [ ] Generate the PNGs
   - [ ] Go through each folder documenting how to determine what needs to be drawn.
 
 ## Further project ideas

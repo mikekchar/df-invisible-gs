@@ -58,9 +58,9 @@ TBD
       this as a modified setup in the event of a bug showing up for Bay12.
   - [X] Add a license file that Github will recognise.
     - Unfortunately, there is no public domain option for Github.  Most countries
-      don't allow putting working directly into the public domain, so I have
-      also allowed people to choose to use my changes under a CC0-1.0 license.
-      It's the best I can do.  I wish there was a better upstream license.
+      don't allow putting work directly into the public domain, so I have also
+      allowed people to choose to use my changes under a CC0-1.0 license. It's
+      the best I can do.  I wish there was a better upstream license.
   - [ ] Write a script that parses the `tile_page_*` files and produces transparent PNGs.
     - They should be the correct dimensions. I hope I can actually figure it
       out from this.  I don't really want to base it on dimensions of the actual PNGs

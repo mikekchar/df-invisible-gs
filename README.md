@@ -29,7 +29,6 @@ Handles the TODO item:
 
   - [ ] Write a script that parses the `tile_page_*` files and produces transparent PNGs.
 
-
 ## License
 
 The original txt files were placed in the public domain (see readme.txt in the
@@ -51,7 +50,6 @@ TBD
     referenced?
   - Can we set this up as a mod?
 
-
 ## TODO
 
   - [X] Copy initial txt files from the base game.
@@ -72,7 +70,9 @@ TBD
     - They should be the correct dimensions. I hope I can actually figure it
       out from this.  I don't really want to base it on dimensions of the actual PNGs
       as technically that might be a derived work.
-    - [ ] Find a tool that can produce a transparent PNG of a given dimension.
+    - [X] Find a tool that can produce a transparent PNG of a given dimension.
+      - [ImageMagick can do it](https://superuser.com/questions/294943/is-there-a-utility-to-create-blank-images)
+      - `convert -size 32x32 xc:transparent empty2.png`
     - [ ] Write something that parses the `tile_page_*` files
     - [ ] Calculate the dimensions and names of the files
     - [ ] Generate the PNGs

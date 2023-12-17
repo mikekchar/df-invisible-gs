@@ -73,7 +73,7 @@ TBD
     - [X] Find a tool that can produce a transparent PNG of a given dimension.
       - [ImageMagick can do it](https://superuser.com/questions/294943/is-there-a-utility-to-create-blank-images)
       - `convert -size 32x32 xc:transparent empty2.png`
-    - [ ] Write something that parses the `tile_page_*` files
+    - [X] Write something that parses the `tile_page_*` files
       - It's going to have to be Ruby if I want to finish in a reasonable time XD
       - Create blocks of text starting with `^\[TILE_PAGE:` and everything indented from there.
         - Grab `FILE:(.+)`
@@ -87,6 +87,9 @@ TBD
       - [X] Find the size of each `TILE_PAGE` block
         - Just count down until you get a non-indented block
         - I'm so glad that I don't care about computational complexity :-)
+      - [X] Get a list of all the file names (as unix filenames)
+      - [X] Find all the dimensions
+        - return "32x128" where 32 is x and 128 is y
     - [ ] Calculate the dimensions and names of the files
     - [ ] Generate the PNGs
   - [ ] Go through each folder documenting how to determine what needs to be drawn.

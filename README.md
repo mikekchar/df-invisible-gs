@@ -74,6 +74,12 @@ TBD
       - [ImageMagick can do it](https://superuser.com/questions/294943/is-there-a-utility-to-create-blank-images)
       - `convert -size 32x32 xc:transparent empty2.png`
     - [ ] Write something that parses the `tile_page_*` files
+      - It's going to have to be Ruby if I want to finish in a reasonable time XD
+      - Create blocks of text starting with `^\[TILE_PAGE:` and everything indented from there.
+        - Grab `FILE:(.+)`
+        - Grab `TILE_DIM:(\d+):(\d+)`
+        - Grab `PAGE_DIM_PIXELS:(\d+):(\d+)`
+        - Grab `PAGE_DIM:(\d+):(\d+)`
     - [ ] Calculate the dimensions and names of the files
     - [ ] Generate the PNGs
   - [ ] Go through each folder documenting how to determine what needs to be drawn.

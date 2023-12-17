@@ -1,0 +1,8 @@
+[ID:vanilla_interface]
+[NUMERIC_VERSION:5010]
+[DISPLAYED_VERSION:50.10]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:5001]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:50.01]
+[AUTHOR:Mike Charlton]
+[NAME:Invisible Interface]
+[DESCRIPTION:Blank Development Dwarf Fortress graphics for the interface buttons, icons, etc.]

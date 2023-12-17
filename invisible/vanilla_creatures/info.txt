@@ -1,0 +1,8 @@
+[ID:vanilla_creatures]
+[NUMERIC_VERSION:5008]
+[DISPLAYED_VERSION:50.08]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:5001]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:50.01]
+[AUTHOR:Mike Charlton]
+[NAME:Invisible Creatures]
+[DESCRIPTION:These are the default Dwarf Fortress creatures.]

@@ -23,6 +23,13 @@ Completely broken.  I've just copied the txt files from the base game.
 There are currently no PNG files at all in the project.  Please see
 the TODO section futher down.
 
+### Active Branch: png_script
+
+Handles the TODO item:
+
+  - [ ] Write a script that parses the `tile_page_*` files and produces transparent PNGs.
+
+
 ## License
 
 The original txt files were placed in the public domain (see readme.txt in the

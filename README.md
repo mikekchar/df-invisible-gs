@@ -80,6 +80,8 @@ TBD
         - Grab `TILE_DIM:(\d+):(\d+)`
         - Grab `PAGE_DIM_PIXELS:(\d+):(\d+)`
         - Grab `PAGE_DIM:(\d+):(\d+)`
+      - [X] Add a bin file
+      - [ ] Recursively find all the `page_tile_*` files
     - [ ] Calculate the dimensions and names of the files
     - [ ] Generate the PNGs
   - [ ] Go through each folder documenting how to determine what needs to be drawn.

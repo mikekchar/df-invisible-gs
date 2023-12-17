@@ -13,21 +13,8 @@ each type of tile.
 
 ## Current Status
 
-Completely broken.  I've just copied the txt files from the base game.
-There are currently no PNG files at all in the project.  Please see
-the TODO section futher down.
-
-## Current Status
-
-Completely broken.  I've just copied the txt files from the base game.
-There are currently no PNG files at all in the project.  Please see
-the TODO section futher down.
-
-### Active Branch: png_script
-
-Handles the TODO item:
-
-  - [ ] Write a script that parses the `tile_page_*` files and produces transparent PNGs.
+Potentially ready to start making sprites.  I haven't tested it, but I think
+I've set up the transparent tile pages properly at this point.
 
 ## License
 

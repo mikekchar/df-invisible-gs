@@ -19,17 +19,13 @@ the TODO section futher down.
 
 ## License
 
-The original txt files were placed in the public domain (see readme.txt
-in the invisible folder
-It can not be used by players.  Its only purpose is to serve as a template
-for future graphics sets.  All of the PNG files are completely transparent.
-The intent is that the game will not crash, but that you won't be able
-to see anything.
+The original txt files were placed in the public domain (see readme.txt in the
+invisible folder).  To the extent possible, I also put my work in this project
+in the public domain.  I explicitly give permission to use any file in this
+project for any purpose.
 
-If you are a graphics set artist, you can use this project as a starting
-point for a new graphics set.  I will do my best to reverse engineer
-and document the file format and describe what you have to do for
-each type of tile.
+Alternatively, at your choice, you may use my modifications to this repository
+under a CC0-1.0 licence (Creative Commons v1.0 Universal License).
 
 ## Current Status
 

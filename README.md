@@ -80,6 +80,11 @@ TBD
         - return "32x128" where 32 is x and 128 is y
     - [X] Calculate the dimensions and names of the files
     - [X] Generate the PNGs
+  - [X] Copy the vanilla_music/objects txt files back from classic
+    - But it seems like it is classic and premium are identical.
+  - [X] Create `vanilla_descriptors_graphics/images/palettes.png`
+    - There are 117 entries of colors and the PNG seems to be 18 pixels wide
+      (for reasons unknown).
   - [ ] Go through each folder documenting how to determine what needs to be drawn.
 
 ## Further project ideas

@@ -1,6 +1,6 @@
 # Invisible Dwarf Fortress Graphics Set
 
-This is development graphics set for classic Dwarf Fortress version 0.50. It
+This is a development graphics set for classic Dwarf Fortress version 0.50. It
 can not be used by players.  Its only purpose is to serve as a template for
 future graphics set development.  The tiles it creates are semi-transparent
 2x2 grids, 32 pixels on each side.  It makes a gray and magenta checkerboard

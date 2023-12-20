@@ -2,9 +2,11 @@
 
 This is development graphics set for classic Dwarf Fortress version 0.50. It
 can not be used by players.  Its only purpose is to serve as a template for
-future graphics set development.  All of the PNG files are completely
-transparent. The intent is that the game will not crash, but that you won't be
-able to see anything.
+future graphics set development.  The tiles it creates are semi-transparent
+2x2 grids, 32 pixels on each side.  It makes a gray and magenta checkerboard
+for each sprite. When you play the game, each sprite is that 2x2 checkerboard.
+While it's not really playable, you can get a good idea of what you need to
+do while you are developing a new graphics set
 
 If you are a graphics set artist, you can use this project as a starting
 point for a new graphics set.  I will do my best to reverse engineer
@@ -13,8 +15,14 @@ each type of tile.
 
 ## Current Status
 
-It seems to work (at least I could make a world and try to embark in it).
-Next step is to start documenting what needs to go into all of the images.
+Suprisingly when used with classic, you can almost see what's going on.
+The next step will be to try to convert this to a mod so that you simply
+have to copy it to the mod directory.  Hopefully that will be easy to do.
+
+Medium to Long term, I will probably try to investigate how feasible it
+would be to write a script that converts a legacy graphics set, into
+one that works tolerably well in 0.50.X.  I also have an idea to try
+to make my own ASCII based graphics set.
 
 ## License
 

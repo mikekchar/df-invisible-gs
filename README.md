@@ -15,7 +15,7 @@ each type of tile.
 
 ## Current Status
 
-Suprisingly when used with classic, you can almost see what's going on.
+Surprisingly when used with classic, you can almost see what's going on.
 The next step will be to try to convert this to a mod so that you simply
 have to copy it to the mod directory.  Hopefully that will be easy to do.
 

@@ -94,7 +94,12 @@ module TilePage
   def self.create_png(filename, page)
     file = "#{File.dirname(filename)}/#{page[:file]}"
     dim = png_dimension(page)
-    `convert -size #{dim[0]}x#{dim[1]} xc:transparent #{file}`
+    tile_dim = tile_dimension(page)
+    subtiles = "xc:'#A0A0A080' xc:'#A000A080' xc:'#A000A080' xc:'#A0A0A080'"
+    subtile_size = "#{tile_dim[0] / 2}x#{tile_dim[1]}"
+    tile = "montage -background transparent -size #{subtile_size} -tile 2x2 #{subtiles} -geometry +0+0"
+    page = "convert -size #{dim[0]}x#{dim[1]} tile:"
+    `#{tile} MIFF:- | #{page}MIFF:- #{file}`
   end
 
   def self.create_pngs(filename)

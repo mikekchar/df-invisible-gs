@@ -106,3 +106,11 @@ how useful that would be, but it would be kind of cool.
 This may actually be easier than doing an ASCII set.  I need to take a look at
 how the legacy graphics sets are set up.  I suspect this will be unbelievably
 popular so I should probably prioritise it.
+
+Note to self: [Phoebus Github Link](https://github.com/DFgraphics/Phoebus/tree/master)
+This is a 16x16 pixel set, so it needs to be scaled.  Then all of the graphics
+need to be copied to a different tile sheet.  Figuring out the mapping
+might be slightly challenging, but maybe not that bad...
+
+I've created an [issue](https://github.com/DFgraphics/Phoebus/issues/23) to see
+if I can get the licensing a bit more clear.

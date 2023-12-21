@@ -36,7 +36,42 @@ under a CC0-1.0 licence (Creative Commons v1.0 Universal License).
 
 ## How Do I Use This?
 
-TBD
+There are 8 mods:
+  - invisible_building_graphics
+  - invisible_creatures_graphics
+  - invisible_descriptors_graphics
+  - invisible_environment
+  - invisible_interface
+  - invisible_items_graphics
+  - invisible_plants_graphics
+  - invisible_world_map
+
+These are located in the `mods` directory.  Each of these add the graphics
+entries for the corresponding vanilla version.  Dwarf Fortress doesn't allow
+a deep directory structure in mods, so I've opted to keep these all as separate
+mods.  It will allow the player to select which of these they want to use,
+which will allow them to mix and match with vanilla if they want.
+
+To install, simply copy each of the folders into the `mods` directory at the top
+level of your dwarf fortress installation.  If the `mods` directory doesn't exist,
+you can simply create it.  Note that once you use create a world using a mod in the
+game, it will *copy* the mod in the `data/installed_mods` directory.  If you update
+the mod in the `mods` directory, you must also update it in the `data/installed_mods`
+directory.
+
+[Details on modding](https://bay12games.com/dwarves/modding_guide.html) are on
+the Bay12 website. There is also a
+[modding mega thread](http://www.bay12forums.com/smf/index.php?topic=180662.0)
+on the Bay12 forums.
+
+In terms of creating sprites, each sprite is a 32x32 block.  When you load up
+the a png into a graphics editor you will see a grid of gray and magenta blocks.
+Each of these blocks is 16x16 and so a full sprite will take up a 4 block square.
+It's simply a matter of determining what you have to draw, and drawing it in
+that square.
+
+At some point in the future, I'll try to describe out to figure out what you
+need to draw.
 
 ## Unresolved questions
 

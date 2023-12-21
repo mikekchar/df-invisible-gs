@@ -12,31 +12,35 @@
       base.
 
 ## Changelog
+
+### Mods
   - [X] Move relevant folders to `mods` directory
   - [X] Update all the `info.txt` files to have correct IDs and versions
   - [X] Discover that you can only have mods that are one level deep
     - This means that we can't have `invisible/invisible_building_graphics`.
-      We can only have `invisible_building_graphics` and `invisible_creates_graphics`,
+      We can only have `invisible_building_graphics` and `invisible_creatures_graphics`,
       etc as separate mods.  That's a bit of a pain, but it's the way it is.
-      It means that for a full graphics set, you have to install 7 mods.
+      It means that for a full graphics set, you have to install 8 mods.
       On the plus side, though, it means you can easily swap out to vanilla if you
       want (and classic seems to ship vanilla map tiles, possibly accidentally).
   - [X] Remove `invisible` folder.
   - [X] Update `bin/create_pngs.rb` to work on the `mods` folder instead of the
         `invisible` folder.
-  - [ ] Write some documentation on how to use the mods
+  - [X] Write some documentation on how to use the mods
+  - [ ] Fix tiles so that they are actually square.
+    - For some reason, the Y values are twice as big as they should be.
   - Also remember to tag this release as 0.01 so that we start tracking versions.
     I'm not sure if we should allow versions to drift, but at the moment I think
     it's best to keep them all lock step even if only one of them changes.  I
     may change my mind later.
 
-## Checkerboards
+### Checkerboards
 
   - [X] Make the tiles semi-transparent checkerboards
     - Thanks to Bumber for the suggestion!
     - The game is surprisingly playable just with this!!!
 
-## Initial
+### Initial
 
   - [X] Copy initial txt files from the base game.
     - I decided to copy them from the premium version rather than the classic version.

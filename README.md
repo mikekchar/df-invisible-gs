@@ -64,6 +64,9 @@ the Bay12 website. There is also a
 [modding mega thread](http://www.bay12forums.com/smf/index.php?topic=180662.0)
 on the Bay12 forums.
 
+When using the mods, make sure to press the "Mods" button on the world creation
+page so that the mods you want to use are actually used.
+
 In terms of creating sprites, each sprite is a 32x32 block.  When you load up
 the a png into a graphics editor you will see a grid of gray and magenta blocks.
 Each of these blocks is 16x16 and so a full sprite will take up a 4 block square.

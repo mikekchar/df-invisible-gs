@@ -95,7 +95,7 @@ module TilePage
     file = "#{File.dirname(filename)}/#{page[:file]}"
     dim = png_dimensions(page)
     subtiles = "xc:'#A0A0A080' xc:'#A000A080' xc:'#A000A080' xc:'#A0A0A080'"
-    subtile_size = "#{page[:tile_dimensions][0] / 2}x#{page[:tile_dimensions][1]}"
+    subtile_size = "#{page[:tile_dimensions][0] / 2}x#{page[:tile_dimensions][1] / 2}"
     tile = "montage -background transparent -size #{subtile_size} -tile 2x2 #{subtiles} -geometry +0+0"
     page = "convert -size #{dim[0]}x#{dim[1]} tile:"
     `#{tile} MIFF:- | #{page}MIFF:- #{file}`

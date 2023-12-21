@@ -27,7 +27,7 @@
   - [X] Update `bin/create_pngs.rb` to work on the `mods` folder instead of the
         `invisible` folder.
   - [X] Write some documentation on how to use the mods
-  - [ ] Fix tiles so that they are actually square.
+  - [X] Fix tiles so that they are actually square.
     - For some reason, the Y values are twice as big as they should be.
   - Also remember to tag this release as 0.01 so that we start tracking versions.
     I'm not sure if we should allow versions to drift, but at the moment I think

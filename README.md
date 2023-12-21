@@ -15,9 +15,11 @@ each type of tile.
 
 ## Current Status
 
-Surprisingly when used with classic, you can almost see what's going on.
-The next step will be to try to convert this to a mod so that you simply
-have to copy it to the mod directory.  Hopefully that will be easy to do.
+The data is now in a mod format (there are actually 8 mods).  I've left
+some instructions on installing below.  Because classic has some base
+tiles built into the game, the game is surprisingly playable simply with
+these placeholders.  I think this is now good to go for a first build.
+As such, I'm releasing version 0.01.
 
 Medium to Long term, I will probably try to investigate how feasible it
 would be to write a script that converts a legacy graphics set, into
@@ -75,13 +77,6 @@ that square.
 
 At some point in the future, I'll try to describe out to figure out what you
 need to draw.
-
-## Unresolved questions
-
-  - Should the top level directory be called `vanilla`?  How does this work?
-  - Should I update the `ID` in the `info.txt` files?  Where are these
-    referenced?
-  - Can we set this up as a mod?
 
 ## TODO
 

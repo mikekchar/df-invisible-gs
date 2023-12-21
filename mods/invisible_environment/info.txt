@@ -1,0 +1,8 @@
+[ID:invisible_environment]
+[NUMERIC_VERSION:1]
+[DISPLAYED_VERSION:0.01]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:0.01]
+[AUTHOR:Mike Charlton]
+[NAME:Invisible Environment]
+[DESCRIPTION:Blank Development Dwarf Fortress graphics for walls, floors, fluids, and other environmental objects.]

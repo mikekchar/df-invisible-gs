@@ -1,8 +1,0 @@
-[ID:vanilla_music]
-[NUMERIC_VERSION:5004]
-[DISPLAYED_VERSION:50.04]
-[EARLIEST_COMPATIBLE_NUMERIC_VERSION:5001]
-[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:50.01]
-[AUTHOR:Mike Charlton]
-[NAME:Invisible Music]
-[DESCRIPTION:These are the triggers for the default Dwarf Fortress music and sound effects.]

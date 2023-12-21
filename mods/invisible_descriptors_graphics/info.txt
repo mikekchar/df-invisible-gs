@@ -1,0 +1,8 @@
+[ID:invisible_descriptors_graphics]
+[NUMERIC_VERSION:1]
+[DISPLAYED_VERSION:0.01]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:0.01]
+[AUTHOR:Mike Charlton]
+[NAME:Invisible Descriptors Graphics]
+[DESCRIPTION:Blank development graphics for shapes and colors.  Includes the palette which is linked to the defined colors.]

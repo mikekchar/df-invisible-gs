@@ -1,8 +1,0 @@
-[ID:vanilla_descriptors_graphics]
-[NUMERIC_VERSION:5001]
-[DISPLAYED_VERSION:50.01]
-[EARLIEST_COMPATIBLE_NUMERIC_VERSION:5001]
-[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:50.01]
-[AUTHOR:Mike Charlton]
-[NAME:Invisible Descriptors Graphics]
-[DESCRIPTION:Blank development graphics for shapes and colors.  Includes the palette which is linked to the defined colors.]

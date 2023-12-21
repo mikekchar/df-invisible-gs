@@ -1,8 +1,0 @@
-[ID:vanilla_plants]
-[NUMERIC_VERSION:5009]
-[DISPLAYED_VERSION:50.09]
-[EARLIEST_COMPATIBLE_NUMERIC_VERSION:5001]
-[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:50.01]
-[AUTHOR:Mike Charlton]
-[NAME:Invisible Plants]
-[DESCRIPTION:These are the default Dwarf Fortress plants and fungi.]

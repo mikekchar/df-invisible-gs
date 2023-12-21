@@ -1,0 +1,8 @@
+[ID:invisible_items_graphics]
+[NUMERIC_VERSION:1]
+[DISPLAYED_VERSION:0.01]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:0.01]
+[AUTHOR:Mike Charlton]
+[NAME:Invisible Items Graphics]
+[DESCRIPTION:Blank development graphics for Dwarf Fortress items.]

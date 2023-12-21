@@ -1,0 +1,8 @@
+[ID:invisible_world_map]
+[NUMERIC_VERSION:1]
+[DISPLAYED_VERSION:0.01]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:0.01]
+[AUTHOR:Mike Charlton]
+[NAME:Invisible World Map]
+[DESCRIPTION:Blank development Dwarf Fortress graphics for the world map.]

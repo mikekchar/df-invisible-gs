@@ -10,7 +10,7 @@ module TilePage
   PAGE_DIM_PIXELS = /\[PAGE_DIM_PIXELS:(\d+):(\d+)\]/.freeze
 
   def self.filenames
-    Dir.glob('invisible/**/tile_page_*')
+    Dir.glob('mods/**/tile_page_*')
   end
 
   def self.indeces(lines)

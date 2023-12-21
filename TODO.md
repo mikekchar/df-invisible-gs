@@ -4,14 +4,35 @@
 
 ## TODO
 
-  - [ ] Generate `palettes.png`
-    - `palettes.png` is just a series of stripes of colors defined
-      in the raws.  We should just generate this from the raws.
   - [ ] Documentation
     - Try to document the process of building a graphics set using this as a
       base.
 
 ## Changelog
+
+### Palette
+Generate `palettes.png`
+
+`palettes.png` is just a series of stripes of colors defined in the raws.  We
+should just generate this from the raws.
+
+The image itself seems to be 2 gradients, 9 pixels wide, side by side.
+There are 117 lines, one for each DF color described in the raws.
+The [actual color values](bin/colors.txt) are defined on the Wiki and
+I'll copy those values.  I'm not sure where they originally came from.
+
+The gradient on the right seems to have the specified color in the middle
+value and the gradient on the left seems to have the saturation a bit lower.
+I'm not sure what gradient is being used, but it seems to go from almost
+black to almost white.
+
+Creating a PNG can be done in Ruby with the chunky-png gem.  I didn't
+really want to have dependencies, but it is what it is, I guess.  More
+documentation writing for me!  I don't want to do this with ImageMagick
+because that's going to be really expensive computationally.
+
+Potentially if I'm going to move to chunky-png, I could refactor the
+rest of the code to avoid using ImageMagick.
 
 ### Mods
   - [X] Move relevant folders to `mods` directory

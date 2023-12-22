@@ -18,13 +18,41 @@ should just generate this from the raws.
 
 The image itself seems to be 2 gradients, 9 pixels wide, side by side.
 There are 117 lines, one for each DF color described in the raws.
-The [actual color values](bin/colors.txt) are defined on the Wiki and
-I'll copy those values.  I'm not sure where they originally came from.
+The [actual color values](bin/colors.txt) are
+[defined on the Wiki](https://dwarffortresswiki.org/index.php/Color#Color_tokens)
+and I'll copy those values.  I'm not sure where they originally came from.
 
-The gradient on the right seems to have the specified color in the middle
-value and the gradient on the left seems to have the saturation a bit lower.
-I'm not sure what gradient is being used, but it seems to go from almost
-black to almost white.
+Neither of the gradients actually include the color in them.  They seem
+to simply be gradients around that value.  They go from nearly black
+to nearly white.  The one on the right is more saturated than the one
+on the left.
+
+I'm not going to try to duplicate this palette exactly.  That would
+be potentially going to far.  Also, I'm not sure this is really a
+great palette anyway :-)  I'll come up with my own gradients around
+the specified color values in the raws.
+
+I just realised what this comment means:
+
+`Right now 255 colors maximum can be supported across all palettes.`
+
+That means that I need to index all of the colors *across* all rows
+so that I'm only using 255 colors.  *That's* why none of the colors
+match.
+
+There are 116 PALETTE_COLOR in the list. So generate all of the colors. Sort by
+absolute value (R+G+B). Create a "distance" metric between 2 colors (the RGB
+value of the brighter one minus the darker one). Create a function that
+generates a new color half way between 2 other colors (Averaging each of R G
+and B). For the next 139 colors, find the largest distance between 2 colors and
+add a new color there. This will generate the palette of 255 colors.
+
+Next, for each PALETTE_COLOR, convert the RGB to HSV.  Make a gradient of 9
+colors keeping the Hue and Saturation constant.  For the left side gradient, go
+from a value of 10 to a value of 80.  For the right side gradient, go from a
+value of 20 to a value of 90.  Then for each of these pick the best fit from
+the total palette with the criteria of value, hue, saturation in that order
+(maybe weighting 10, 5 1???)
 
 Creating a PNG can be done in Ruby with the chunky-png gem.  I didn't
 really want to have dependencies, but it is what it is, I guess.  More

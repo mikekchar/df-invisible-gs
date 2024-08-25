@@ -3,7 +3,8 @@ palette_default
 [OBJECT:PALETTE]
 
 Right now 255 colors maximum can be supported across all palettes.
-
+Default is the color replaced.
+If Default contains different colors, they will be replaced by the one in the same column, meaning we can get shading.
 [PALETTE:DEFAULT]
 	[FILE:images/palettes.png]
 	[PALETTE_DEFAULT:0] this is the one used in the images themselves
